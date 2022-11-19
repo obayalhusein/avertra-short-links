@@ -6,7 +6,7 @@ export default function IntroSection() {
     <section>
       <Grid container alignItems="center">
         <Grid xs={6}>
-          <Typography variant="h1" component="h1">
+          <Typography variant="h2" component="h1">
             <Box fontWeight="fontWeightBold" component="span">
               More than just shorter links
             </Box>
@@ -16,7 +16,7 @@ export default function IntroSection() {
             Build your brand's recognition and get detailed insights on how your links are performing
           </Typography>
 
-          <Button variant="contained" sx={{ mt: 3 }}>Get Started</Button>
+          <Button variant="contained" sx={{ mt: 3 }} size="large">Get Started</Button>
         </Grid>
         <Grid xs={6}>
           <img src="/images/illustrations/illustration-working.svg" />
