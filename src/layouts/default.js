@@ -1,9 +1,12 @@
+import TheHeader from "../components/common/TheHeader";
+import TheFooter from "../components/common/TheFooter";
+
 const Layout =({children}) =>{
     return(
         <>
-            <header>header</header>
+            <TheHeader />
             <main>{children}</main>
-            <footer>footer</footer>
+            <TheFooter />
         </>
     )
 }
